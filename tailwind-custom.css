@@ -1,0 +1,23 @@
+/* Custom CSS for features not easily achievable with Tailwind */
+
+/* Backdrop blur fallback for older browsers */
+.backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+/* Custom gradient for navbar if needed */
+.navbar-gradient {
+    background: linear-gradient(135deg, #ff8c00, #ff6b00);
+}
+
+/* Ensure exact colors match original design */
+:root {
+    --orange-primary: #ff8c00;
+    --orange-secondary: #ff6b00;
+}
+
+/* Font family fallback */
+.font-system {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
